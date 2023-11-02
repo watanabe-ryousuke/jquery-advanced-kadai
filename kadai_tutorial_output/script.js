@@ -29,7 +29,6 @@ $(function () {
   
     // 入力チェックをした結果、エラーがあるかないか判定
     let result = inputCheck();
-  });
 
   // エラー判定とメッセージを取得
   let error = result.error;
@@ -54,6 +53,7 @@ $(function () {
     // エラーメッセージを表示する
     alert(message);
   }
+  });
 
   // フォーカスが外れたとき（blur）にフォームの入力チェックをする
   $('#name').blur(function () {
